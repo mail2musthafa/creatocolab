@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Dashboard(){return <main className="simple-page"><div className="container simple-page-inner"><span className="eyebrow">CREATOR WORKSPACE · PREVIEW</span><h1>Your creator dashboard.</h1><p>Profile strength, campaign invitations, active collaborations, content reviews and earnings will live here.</p><Link className="button button-dark" href="/signup">Create creator account</Link></div></main>}

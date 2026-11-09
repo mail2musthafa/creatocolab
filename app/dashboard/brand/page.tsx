@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Dashboard(){return <main className="simple-page"><div className="container simple-page-inner"><span className="eyebrow">BRAND WORKSPACE · PREVIEW</span><h1>Your campaign command centre.</h1><p>Creator shortlists, campaign briefs, bookings, approvals, payments and reports will live here.</p><Link className="button button-dark" href="/signup">Create brand account</Link></div></main>}
